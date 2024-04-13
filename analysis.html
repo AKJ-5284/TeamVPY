@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Graphs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        /* Reset some default styling */
+        body, h1, h2 {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .header {
+            background-color: #3b3291;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex; /* Display images side by side */
+            gap: 20px; /* Add spacing between images */
+            background: linear-gradient(to right, #3b3291, white); /* Gradient background */
+            padding: 20px;
+        }
+
+        .asset-section {
+            flex: 1; /* Distribute available space equally between images */
+            padding: 10px; /* Proper padding */
+            text-align: center;
+        }
+
+        .asset-section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .asset-section h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Analysis Graphs</h1>
+    </header>
+
+    <div class="container">
+        <section class="asset-section">
+            <img src="assets/Accident in Rural Areas, Cities, Towns, and Village Settlements (2016-2023).png" alt="Asset Image">
+            <h2>Accident Locations</h2>
+            <img src="assets/cities vs no. of accidents.png" alt="Cities vs No. of Accidents">
+            <h2>Road Character</h2>
+        </section>
+
+        <section class="asset-section">
+            <img src="assets/weather.png" alt="Weather">
+            <h2>Year vs No. of Accidents</h2>
+            <img src="assets/Accident Locations.png" alt="Accident Locations">
+        </section>
+
+        <section class="asset-section">
+            <img src="assets/Road Character.png" alt="Weather">
+            <h2>Year vs No. of Accidents</h2>
+            <img src="assets/Road Type.png" alt="Accident Locations">
+        </section>
+
+    </div>
+</body>
+
+</html>
